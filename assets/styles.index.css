@@ -19,13 +19,19 @@ body{
     box-sizing: border-box;
 }
 
+#image-profile{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
 header {
     background-color: rgb(242, 31, 101);
     border-radius: 6px;
     height: 150px;
     display: flex;
-    flex-direction: column;
-    justify-content: center; /*vertical*/
+    flex-direction: row;
+    justify-content: space-around; /*vertical*/
     align-items: center; /*horizontal*/
 }
 
