@@ -8,7 +8,7 @@
 
 body{
     font-family: "Bebas neue", sans-serif;
-    color:rgb(238, 36, 93);
+    color:rgb(0, 0, 0);
     padding: 10px;
 }
 
@@ -20,11 +20,34 @@ body{
 }
 
 header {
-    background-color: rgb(242, 205, 232);
+    background-color: rgb(242, 31, 101);
     border-radius: 6px;
     height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center; /*vertical*/
     align-items: center; /*horizontal*/
+}
+
+#principal {
+    border-radius: 6px;
+    height: 800px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    background-color:rgb(171, 167, 169);
+    border-radius: 6px;
+    height: 100%;
+    width: 74%;
+}
+
+aside {
+    background-color: rgb(197, 199, 200);
+    border-radius: 6px;
+    height: 100%;
+    width: 25%;
 }
